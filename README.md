@@ -9,23 +9,26 @@ esbuild styla plugin
 ```js
 const stylaPlugin = require('esbuild-styla-plugin');
 
-esbuild
-  .build({
-    entryPoints: ['./src/index.js'],
-    bundle: true,
-    outfile: './dist/app/app.js',
-    loader: {
-      '.js': 'jsx',
-    },
-    sourcemap: true,
-    target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
-    define: {
-      'process.env.NODE_ENV': '"development"',
-    },
-    plugins: [
-      stylaPlugin({
-        imports: ['./styles/theme.styl'],
-      }),
-    ],
-  });
+esbuild.build({
+  entryPoints: ['./src/index.js'],
+  bundle: true,
+  outfile: './dist/app/app.js',
+  loader: {
+    '.js': 'jsx',
+  },
+  sourcemap: true,
+  target: ['chrome58', 'firefox57', 'safari11', 'edge16'],
+  define: {
+    'process.env.NODE_ENV': '"development"',
+  },
+  plugins: [
+    stylaPlugin({
+      imports: ['./styles/theme.styl'],
+    }),
+  ],
+});
 ```
+
+### DevPlugins
+
+- `styla`;
