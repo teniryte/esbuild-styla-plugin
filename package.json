@@ -1,23 +1,14 @@
 {
   "name": "esbuild-styla-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/index.js",
   "description": "esbuild styla plugin",
   "keywords": [],
   "homepage": "https://github.com/teniryte/esbuild-styla-plugin",
   "license": "MIT",
-  "devDependencies": {
-    "colors": "^1.1.2",
-    "expect.js": "^0.3.1",
-    "mocha": "^4.0.1",
-    "tap": "^10.7.3"
-  },
-  "dependencies": {
-    "styla": "^1.0.21"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/index.js"
-  },
+  "devDependencies": {},
+  "dependencies": {},
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/teniryte/esbuild-styla-plugin.git"
