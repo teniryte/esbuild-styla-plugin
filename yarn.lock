@@ -682,10 +682,10 @@ strip-json-comments@2.0.1:
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-styla@^2.0.7:
-  version "2.0.7"
-  resolved "https://registry.npmjs.org/styla/-/styla-2.0.7.tgz#fe4e1ce32f23a445ee55639d324eaa0ce7389f91"
-  integrity sha512-pcuUWdPw3lmJbHCQa55zm9Eb1p7tXRNBu/F0YRjQlebNAAG3ii/mUREM5/O7IrJ1j1LlZmdD/abmoilxUZSPTA==
+styla@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.npmjs.org/styla/-/styla-2.0.8.tgz#e1f809ee44535a52d56ffaeef4ab927b1e41b72c"
+  integrity sha512-YdkifXO7Dysyu37rVz5ogmVfXJeIbWpps4oppipIyZrZ7WUpd4pfNEf6qldBk9kAyn7LYq66MR22xKJIBloEfQ==
   dependencies:
     ooi "^0.1.60"
     stylus "^0.54.8"
