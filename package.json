@@ -1,6 +1,6 @@
 {
   "name": "esbuild-styla-plugin",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "main": "./lib/index.js",
   "description": "esbuild styla plugin",
   "keywords": [],
@@ -8,7 +8,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "styla": "^2.0.7"
+    "styla": "^2.0.8"
   },
   "scripts": {},
   "repository": {
